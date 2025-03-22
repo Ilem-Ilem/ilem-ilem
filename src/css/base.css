@@ -1,0 +1,23 @@
+@font-face {
+    font-family: Castoro;
+    font-style: normal;
+    font-weight: 200 700;
+    font-display: swap;
+    src: url("/fonts/Castoro/Castoro-Regular.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: poppins;
+    font-style: normal;
+    font-weight: 200 700;
+    font-display: swap;
+    src: url("/fonts/Poppins/Poppins-SemiBold.ttf") format("ttf");
+}
+
+*{
+    font-family: poppins;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
